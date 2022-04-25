@@ -14,8 +14,3 @@
   --orange: #ff6b00;
 }
 
-#main-content {
-  display: flex;
-  flex-direction: column;
-}
-

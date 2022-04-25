@@ -1,6 +1,6 @@
 
 
-#header {
+#nav-bar {
   background: var(--lightdark);
   height: 48px;
   display: flex;
@@ -13,24 +13,7 @@
   line-height: 24px;
 }
 
-#header a {
+#nav-bar a {
   text-decoration: none;
 }
 
-#logo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: var(--white);
-}
-
-.header-btn {
-  background: none;
-  outline: none;
-  border: none;
-}
-
-.header-btn:hover {
-  cursor: pointer;
-}

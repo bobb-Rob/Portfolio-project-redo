@@ -1,0 +1,46 @@
+
+#headline-section {
+  background-color: var(--deepDark);
+  padding: 100px 24px 24px 24px;
+  height: 590px;
+  background-image: url(../../Assets/illustrations/Illustrationillustration.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  
+#headline-section .headline-primary-text {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: var(--orange);
+}
+  
+#headline-section h4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.headline-desc {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 12px;
+}
+  
+.headline-social-media {
+  display: flex;
+  margin-top: 12px;
+}
