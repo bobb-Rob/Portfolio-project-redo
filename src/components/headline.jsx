@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import SocialIcon from '../../components/socialMedia/socialIcon';
-import gitHubIcon from '../../Assets/icons/Disabledgithub-icon.png';
-import LinkedInIcon from '../../Assets/icons/DisabledLinkedIn-icon.png';
-import EnabledTwoFingers from '../../Assets/icons/Enabledtwo-fingers-icon.png';
-import TwitterIcon from '../../Assets/icons/Disabledtwitter-icon.png';
-import MIcon from '../../Assets/icons/DisabledM-icon.png';
-import './headline.css';
+import SocialIcon from './socialIcon';
+import gitHubIcon from '../Assets/icons/Disabledgithub-icon.png';
+import LinkedInIcon from '../Assets/icons/DisabledLinkedIn-icon.png';
+import EnabledTwoFingers from '../Assets/icons/Enabledtwo-fingers-icon.png';
+import TwitterIcon from '../Assets/icons/Disabledtwitter-icon.png';
+import MIcon from '../Assets/icons/DisabledM-icon.png';
+import '../styles/headline.css';
 
 class Headline extends Component {
   render() {

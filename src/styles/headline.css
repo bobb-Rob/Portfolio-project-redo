@@ -3,7 +3,7 @@
   background-color: var(--deepDark);
   padding: 100px 24px 24px 24px;
   height: 590px;
-  background-image: url(../../Assets/illustrations/Illustrationillustration.svg);
+  background-image: url(../Assets/illustrations/Illustrationillustration.svg);
   background-repeat: no-repeat;
   background-position: 100% 230px;
   display: flex;
@@ -43,4 +43,8 @@
 .headline-social-media {
   display: flex;
   margin-top: 12px;
+}
+
+.headline-social-media li {
+  list-style: none;
 }

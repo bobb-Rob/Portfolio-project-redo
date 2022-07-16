@@ -1,7 +1,7 @@
 import React from 'react';
-import './navbar.css';
-import Hamburger from '../../components/mobileMenuBtn/hamburger';
-import Logo from '../../components/Logo/Logo';
+import '../styles/navbar.css';
+import Hamburger from './hamburger';
+import Logo from './Logo';
 
 class Navbar extends React.Component {
   constructor(props) {

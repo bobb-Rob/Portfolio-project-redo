@@ -1,4 +1,12 @@
+.hamburger-btn {
+  background: none;
+  outline: none;
+  border: none;
+}
 
+.hamburger-btn:hover {
+  cursor: pointer;
+}
 
 #nav-bar {
   background: var(--lightdark);

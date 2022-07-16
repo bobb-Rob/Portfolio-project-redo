@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Headline from '../../sections/headline/headline';
-import './main.css';
+import Headline from './headline';
+import '../styles/main.css';
 
 export class Main extends Component {
   render() {

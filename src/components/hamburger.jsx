@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import menuIcon from '../../Assets/icons/Icon-Menumenu-icon.png';
-import './Hamburger.css';
+import menuIcon from '../Assets/icons/Icon-Menumenu-icon.png';
 
 export class Hamburger extends Component {
   render() {
