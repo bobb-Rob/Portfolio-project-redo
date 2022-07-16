@@ -1,0 +1,84 @@
+
+#contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 24px;
+  }
+  
+  .contact-form-header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 58px 0 0 0;
+    min-width: 327px;
+  }
+  
+  .text-input {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+    height: 48px;
+    padding: 12px;
+    border: none;
+    border-bottom: none;
+  }
+  
+  #contact-text-area {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    height: 114px;
+    padding: 12px;
+    border: none;
+  }
+  
+  .btn-form-submit {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 24px 0;
+    color: #fff;
+  }
+  
+  #bottom-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-social-media {
+    display: flex;
+    list-style: none;
+    height: 40px;
+    filter: invert(37%) sepia(12%) saturate(1086%) hue-rotate(179deg) brightness(92%) contrast(88%);
+  }
+  
+  .social-media {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-media:hover {
+    background: var(--lightdark);
+  }
+  

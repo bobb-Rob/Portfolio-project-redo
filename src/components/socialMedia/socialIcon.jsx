@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './socialIcon.css';
 
-export class SocialIcon extends Component {
+class SocialIcon extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    const { icon, alt } = this.props;
     return (
       <li>
         <a href="#">
-          <img src={icon} alt={alt} />
+          <img src={this.props.icon} alt={this.props.alt} />
         </a>
       </li>
     );
@@ -19,3 +19,8 @@ export class SocialIcon extends Component {
 }
 
 export default SocialIcon;
+
+SocialIcon.PropTypes = {
+  icon: PropTypes.string,
+  alt: PropTypes.string,
+};
